@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Donnees locales et volumes
+data/
+logs/
+*.log
+
+# Environnements et secrets
+.env.*
+!.env.example
+
+# Docker et systemes
+.DS_Store
+Thumbs.db
